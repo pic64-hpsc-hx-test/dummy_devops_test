@@ -1,0 +1,8 @@
+# args | expected stdout | expected exit code
+add 2 3 | 5 | 0
+sub 10 4 | 6 | 0
+mul 6 7 | 42 | 0
+div 9 3 | 3 | 0
+div 1 0 |  | 1
+pow 2 2 |  | 1
+mod 17 5 | 2 | 0

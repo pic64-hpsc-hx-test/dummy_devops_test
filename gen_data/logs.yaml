@@ -1,0 +1,19 @@
+# Log message registry (the p64h-sysc logs.yaml equivalent).
+# tools/gen_logs.py turns this into src/generated/logs.[ch]; both generated files are committed,
+# so two PRs that each add an entry conflict in the same places as in p64h-sysc.
+# Format (kept simple so no PyYAML is needed): one "- name:" block per message.
+- name: APP_START
+  level: INFO
+  text: "dummy_app started"
+- name: CALC_RESULT
+  level: INFO
+  text: "result"
+- name: CALC_BAD_OP
+  level: ERROR
+  text: "unknown operation"
+- name: CALC_DIV_ZERO
+  level: ERROR
+  text: "division by zero"
+- name: CALC_MOD
+  level: DEBUG
+  text: "modulo"
