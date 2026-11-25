@@ -1,0 +1,4 @@
+[submodule "deps/devops_dummy_project"]
+	path = deps/devops_dummy_project
+	url = git@github.com:pic64-hpsc-hx-test/devops_dummy_project.git
+	branch = p64h_release_dev
