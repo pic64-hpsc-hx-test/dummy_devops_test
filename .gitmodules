@@ -2,3 +2,11 @@
 	path = deps/devops_dummy_project
 	url = git@github.com:pic64-hpsc-hx-test/devops_dummy_project.git
 	branch = p64h_release_dev
+[submodule "src/fork"]
+	path = src/fork
+	url = git@github.com:pic64-hpsc-hx-test/relpipe_source_sub_test.git
+	branch = HPSC-9072-source-sub
+[submodule "third_party/hello"]
+	path = third_party/hello
+	url = https://github.com/octocat/Hello-World.git
+	branch = master
